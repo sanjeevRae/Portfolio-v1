@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wkwk.css">
+    <title>Contact Form</title>
+</head>
+<body>
+
+  <div>
+    <div class="contact-form-container">
+        
+        <div class="form-left">
+            
+            <!-- <a href="index.html">  <img src="img/contact1.gif" width="80px"> </a> -->
+
+            <div class="tooltip">
+                <a href="index.html">
+                    <img src="img/contact1.gif" width="80px" alt="Contact">
+                </a>
+                <span class="tooltiptext">Click here to go home</span>
+            </div>
+            
+            <h1>Have any questions or collaboration ideas?</h1>
+            <p>I’m ready to discuss and dive into new projects. 
+            Use the contact form to reach out, and I’ll get back to you quickly.</p>
+        </div>
+        <div class="form-right">
+
+            <form action="https://api.web3forms.com/submit" method="POST" class="contact-form" data-reveal="right">
+
+                <input type="hidden" name="access_key" value="7d7825b9-3d3b-4aa8-9668-88070b7d59aa">
+                <div class="input-group">
+                    <input type="text" name="name" placeholder="Name *" required class="input-field">
+                    <input type="email" name="email_address" placeholder="Email *" required class="input-field">
+                </div>
+
+                <textarea name="message" placeholder="Message *" required class="input-field"> </textarea>
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                <button type="submit" class="btn">Send message</button>
+            </form>
+        </div>    
+    </div>  
+    <p> &copy;2024 Sanjeev Rai. All rights reserved.</p>
+  </div>
+
+</body>
+</html>
